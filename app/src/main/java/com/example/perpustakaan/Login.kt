@@ -26,7 +26,7 @@ class Login : AppCompatActivity() {
         val name: EditText =findViewById(R.id.username)
         val login: Button = findViewById(R.id.login)
         login.setOnClickListener {
-            var url = "http://192.168.56.1/mini_projek/miniproject2/web_servis/login_mobile.php?nama="+name.text.toString()+"&pwd="+pwd.text.toString()
+            var url = "https://perpustakaan.freehost.id/web_servis/login_mobile.php?nama="+name.text.toString()+"&pwd="+pwd.text.toString()
             var rq : RequestQueue = Volley.newRequestQueue(this)
             var sr =  StringRequest(Request.Method.GET,url, Response.Listener { response ->
                 if(response.equals("0")){

@@ -24,7 +24,7 @@ class Regis : AppCompatActivity() {
         val nim : EditText = findViewById(R.id.nim_su)
         val sign: Button =findViewById(R.id.daftar)
         sign.setOnClickListener {
-                var url = "http://192.168.56.1/mini_projek/miniproject2/web_servis/daftar.php?nama="+name.text.toString()+"&email="+email.text.toString()+"&pwd="+pwd.text.toString()+"&hp="+hp.text.toString()+"&almt="+almt.text.toString()+"&kota="+kota.text.toString()+"&nim="+nim.text
+                var url = "https://perpustakaan.freehost.id/web_servis/daftar.php?nama="+name.text.toString()+"&email="+email.text.toString()+"&pwd="+pwd.text.toString()+"&hp="+hp.text.toString()+"&almt="+almt.text.toString()+"&kota="+kota.text.toString()+"&nim="+nim.text
                 System.out.println(url)
                 var rq : RequestQueue = Volley.newRequestQueue(this)
                 var sr =  StringRequest(Request.Method.GET,url, Response.Listener { response ->

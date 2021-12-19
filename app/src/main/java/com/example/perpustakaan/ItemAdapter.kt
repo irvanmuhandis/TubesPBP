@@ -28,7 +28,7 @@ class ItemAdapter(var context : Context, var list:ArrayList<item>) :
         fun bind(n:String,s:Int,g:String){
             itemView.nama_buku.text = "Judul = "+n
             itemView.stok_buku.text = "Stok Tersedia = "+s.toString()
-            var web :String = "http://192.168.56.1/mini_projek/miniproject2/images/"
+            var web :String = "https://perpustakaan.freehost.id/images/"
             web = web.replace(" ","%20")
             Picasso
                 .get()

@@ -18,8 +18,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        username.text = "Nama Anggota : "+UserInfo.nama
         var list = ArrayList<item>()
-        var url :String = "http://192.168.56.1/mini_projek/miniproject2/web_servis/get_buku.php"
+        var url :String = "https://perpustakaan.freehost.id/web_servis/get_buku.php"
         var rq: RequestQueue = Volley.newRequestQueue(this)
         var jar = JsonArrayRequest(Request.Method.GET,url,null, Response.Listener { response ->
             for (x in 0 until response.length()-1){
