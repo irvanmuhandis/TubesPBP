@@ -4,8 +4,6 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.simple_list.view.*
@@ -33,8 +31,8 @@ class ItemAdapter(var context : Context, var list:ArrayList<item>) :
             Picasso
                 .get()
                 .load(web+g)
-                .placeholder(R.drawable.buuk)
-                .error(R.drawable.buuk)
+                .placeholder(R.drawable.buku)
+                .error(R.drawable.buku)
                 .into(itemView.img_buku)
         }
     }
