@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.perpustakaan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:4:1-62
+11-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:4:18-60
+12
+13    <application
+13-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:5:5-27:19
+14        android:allowBackup="true"
+14-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\adria\.gradle\caches\transforms-3\6006d603408a8c1ed0edf3e550c48eb5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:10:9-35
+21        android:theme="@style/Theme.Perpustakaan" >
+21-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:11:9-50
+22        <activity
+22-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:12:9-14:39
+23            android:name="com.example.perpustakaan.Regis"
+23-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:13:13-34
+24            android:exported="true" />
+24-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:14:13-36
+25        <activity
+25-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:15:9-23:20
+26            android:name="com.example.perpustakaan.Login"
+26-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:16:13-34
+27            android:exported="true" >
+27-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:17:13-36
+28            <intent-filter>
+28-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:24:9-26:48
+35            android:name="com.example.perpustakaan.MainActivity"
+35-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:25:13-41
+36            android:exported="true" />
+36-->C:\MAGANG\coding\githubperpus\app\src\main\AndroidManifest.xml:26:13-36
+37
+38        <provider
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\adria\.gradle\caches\transforms-3\4553e8dce78c00f8ae1b4a8ddad715ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+39            android:name="com.squareup.picasso.PicassoProvider"
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\adria\.gradle\caches\transforms-3\4553e8dce78c00f8ae1b4a8ddad715ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+40            android:authorities="com.example.perpustakaan.com.squareup.picasso"
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\adria\.gradle\caches\transforms-3\4553e8dce78c00f8ae1b4a8ddad715ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+41            android:exported="false" />
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\adria\.gradle\caches\transforms-3\4553e8dce78c00f8ae1b4a8ddad715ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+42        <provider
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\adria\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\adria\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+44            android:authorities="com.example.perpustakaan.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\adria\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\adria\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\adria\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\adria\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\adria\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\adria\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\adria\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\adria\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>
