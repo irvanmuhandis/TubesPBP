@@ -1,7 +1,8 @@
 <?php
 include('../db_login.php');
 $query = $db->prepare('select * from anggota where nama=? and password=?');
-$query->bind_param("ss", $_GET['nama'], md5($_GET['pwd']));
+$pwd = md5($_GET['pwd']);
+$query->bindValue("ss", $_GET['nama'], $pwd);
 $query->execute();
 $rs = $query->get_result();
 if ($rs->num_rows != 0) {
