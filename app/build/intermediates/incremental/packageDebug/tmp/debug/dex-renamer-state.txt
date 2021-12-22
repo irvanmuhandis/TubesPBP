@@ -1,4 +1,4 @@
-#Mon Dec 20 23:51:00 ICT 2021
+#Wed Dec 22 15:04:11 ICT 2021
 base.2=C\:\\MAGANG\\coding\\githubperpus\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
 path.2=3/classes.dex
 base.1=C\:\\MAGANG\\coding\\githubperpus\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

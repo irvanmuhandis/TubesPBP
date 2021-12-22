@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         var url :String = "https://perpustakaan.freehost.id/web_servis/get_buku.php"
         var rq: RequestQueue = Volley.newRequestQueue(this)
         var jar = JsonArrayRequest(Request.Method.GET,url,null, Response.Listener { response ->
-            for (x in 0 until response.length()-1){
+            for (x in 0 until response.length()){
                 list.add(item(response.getJSONObject(x).getString("judul"),
                     response.getJSONObject(x).getInt("stok_tersedia"),response.getJSONObject(x).getString("file_gambar")))
                 var adp = ItemAdapter(this,list)
